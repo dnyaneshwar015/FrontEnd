@@ -1,0 +1,43 @@
+/*
+#h1{
+    color:rgb(218, 108, 135);
+    font-size:30px;
+    font-family:'Times New Roman', Times, serif;
+    }
+#h2{
+        color:rgb(211, 89, 120);
+        font-size:30px;
+        font-family:'Times New Roman', Times, serif;
+        }
+body{
+    border: solid 10px rgb(238, 178, 178);
+    background-color: rgb(192, 68, 11);
+    margin: 5px;
+    padding: 5px;
+}
+*/
+
+/*
+grouping selector
+h1,label,input
+{
+    background-color: antiquewhite;
+}
+*/
+
+
+/*universal selector*/
+/*
+*
+{
+    color:black;
+    background-color:rgb(196, 196, 255);
+}
+*/
+
+p::first-line{
+    color: brown;
+}
+h1::horizontal{
+    color: orchid;
+}
